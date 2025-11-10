@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/AnasayfaFragment">
+
+    <fragment
+        android:id="@+id/AnasayfaFragment"
+        android:name="com.example.navigationcompenentkullanimi.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/gecisDetay"
+            app:destination="@id/detayFragment"
+            app:popUpTo="@id/AnasayfaFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/bottomSheetGecis"
+            app:destination="@id/bottomSheetFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detayFragment"
+        android:name="com.example.navigationcompenentkullanimi.DetayFragment"
+        android:label="fragment_detay"
+        tools:layout="@layout/fragment_detay" >
+        <argument
+            android:name="ad"
+            app:argType="string"
+            android:defaultValue="0" />
+        <argument
+            android:name="yas"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="urun"
+            app:argType="com.example.navigationcompenentkullanimi.Urunler" />
+    </fragment>
+    <fragment
+        android:id="@+id/AyarlarFragment"
+        android:name="com.example.navigationcompenentkullanimi.AyarlarFragment"
+        android:label="fragment_ayarlar"
+        tools:layout="@layout/fragment_ayarlar" />
+    <dialog
+        android:id="@+id/bottomSheetFragment"
+        android:name="com.example.navigationcompenentkullanimi.BottomSheetFragment"
+        android:label="fragment_bottom_sheet"
+        tools:layout="@layout/fragment_bottom_sheet" />
+</navigation>
