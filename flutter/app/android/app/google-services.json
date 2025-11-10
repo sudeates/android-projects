@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "563828992145",
+    "project_id": "staj-c173e",
+    "storage_bucket": "staj-c173e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563828992145:android:05cae1d39813992a88b730",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRz3h-oKc0TztR2Pv2U7H126OypMIqeKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
