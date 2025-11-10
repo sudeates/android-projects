@@ -1,2 +1,2 @@
-# android_bootcamp
-android bootcamp odevleri
+# android projects
+my android projects
