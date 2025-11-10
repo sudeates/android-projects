@@ -54,11 +54,6 @@ A practice project showing how to use the **Jetpack Navigation Component** for s
 
 **Technologies Used:** Kotlin, Jetpack Navigation, Safe Args
 
----
-
-> 📝 *Odev_2, Odev_4 and other homework folders are excluded from this list.*
-
----
 
 ## 🐦 Flutter Projects
 
@@ -143,12 +138,6 @@ Android projelerinde **Model-View-ViewModel (MVVM)** mimarisinin uygulanışın�
 **Jetpack Navigation Component** ile fragment geçişlerinin nasıl yönetileceğini gösteren pratik proje.
 
 **Kullanılan Teknolojiler:** Kotlin, Jetpack Navigation, Safe Args
-
----
-
-> 📝 *Odev_2, Odev_4 ve diğer ödev klasörleri bu listeye dahil edilmemiştir.*
-
----
 
 ## 🐦 Flutter Projeleri
 
